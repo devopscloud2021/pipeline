@@ -19,17 +19,17 @@ pipeline {
                         [
                             artifactId: 'wwp', 
                             classifier: '', 
-                            file: "target/wwp-1.0.0.war", 
+                            file: "target/wwp-2.0.0.war", 
                             type: 'war'
                         ]
                     ], 
                     credentialsId: 'nexus-user-credentials', 
                     groupId: 'koddas.web.war', 
-                    nexusUrl: '54.169.88.118:8081', 
+                    nexusUrl: '13.251.156.112:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: 'test-release', 
-                    version: '1.0.0'
+                    version: '2.0.0'
                     }
             }
         }
