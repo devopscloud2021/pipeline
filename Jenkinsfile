@@ -23,7 +23,7 @@ pipeline {
                             type: 'war'
                         ]
                     ], 
-                    credentialsId: 'nexus-user-credentials', 
+                    credentialsId: 'nexus', 
                     groupId: 'koddas.web.war', 
                     nexusUrl: '13.251.156.112:8081', 
                     nexusVersion: 'nexus3', 
